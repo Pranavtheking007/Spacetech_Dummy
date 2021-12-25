@@ -1,0 +1,135 @@
+//- index.pug
+doctype html
+html
+  head
+    link(rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png')
+    link(rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png')
+    link(rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png')
+    link(rel='manifest' href='/site.webmanifest') 
+    link(rel='stylesheet' href='https://unpkg.com/flickity@2/dist/flickity.min.css')
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+
+    title Nebula-Tech
+    style
+      include ../static/style.css
+  body
+    header 
+     
+      div.tech 
+        h1 Space_Tech
+    nav#navbar
+        ul
+          div#Logo
+            img(src="/static/img/satellite.jpg")
+          h3 Nebula
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") New-Tech]
+          li #[a(href="/") Space-Research]
+          li #[a(href="/contact") Contacts]
+
+    section#introSection
+        div.manchuko WELCOME TO NEBULA_TECH
+        div.Tokugawa Here you come to know about the new innovations in space tech along with an opportunity to establish a bright career  
+
+    section#bottai 
+    hr
+
+    section#OurMoto
+        div.sat 
+          span 
+            h2 Our Moto
+        div.card1
+          h3 Space Tech Exploartaions
+          div.card-box 
+            div.card-img
+            div.card-content 
+              p The need for more energy and the need to understand our space in order to learn and adapt more to universe and how we can develope makes the space tech imp
+
+        div.card2
+          h3 Need for space innovations
+          div.card-box 
+            div.card-img
+            div.card-content 
+              p The need for more energy and the need to understand our space in order to learn and adapt more to universe and how we can develope makes the space tech imp
+        div.card3
+          h3 The prosperous Future
+          div.card-box1 
+            div.card-img
+            div.card-content 
+              p The need for more energy and the need to understand our space in order to learn and adapt more to universe and how we can develope makes the space tech imp
+    hr
+
+    section#banzaiii 
+      h2 The Mordern Tech 
+      div#battai
+        div.carousel(data-flickity='{ "autoPlay": 1500 }')
+          div.carousel-cell
+            div.card4
+             h3 Tele_Communication
+              div.card-box
+          div.carousel-cell
+            div.card5
+              h3 SpaceVeichles
+              div.card-box 
+          div.carousel-cell
+            div.card6
+              h3 DeepSpace_Communication
+              div.card-box
+          div.carousel-cell
+            div.card7
+             h3 Astronomy
+             div.card-box
+          div.carousel-cell
+            div.card8
+             h3 EarthScience
+             div.card-box
+          div.carousel-cell
+            div.card9
+             h3 Navigation
+             div.card-box 
+          div.carousel-cell
+            div.card10
+             h3 Space_Station
+             div.card-box 
+    hr
+
+    section#sponsors
+      h2 Our Partners
+      div#partners 
+        img(src="/static/bgmi/India.png", alt="Net dekhle bsdk" class="spimage")
+        img(src="/static/bgmi/Europe.png", alt="Net dekhle bsdk" class="spimage")
+        img(src="/static/bgmi/USA.jpg", alt="Net dekhle bsdk" class="spimage")
+        img(src="/static/bgmi/Russia.jpg", alt="Net dekhle bsdk" class="spimage")
+
+    hr
+    section#social 
+     div.sm-handle
+      h4
+        p Connect with us On
+      a.fa.fa-facebook(href='#')
+      a.fa.fa-twitter(href='#')
+      a.fa.fa-pinterest(href='#')
+      a.fa.fa-linkedin(href='#')
+      a.fa.fa-instagram(href='#')
+      a.fa.fa-youtube(href='#')
+      a.fa.fa-google(href='#')
+      a.fa.fa-snapchat-ghost(href='#')
+      a.fa.fa-skype(href='#')
+    hr
+    section#moza 
+
+
+
+    footer 
+        a.CCP(href='#') FAQ
+        a.CCP(href='#') Terms and policy
+        a.CCP(href='#') Contact us
+        a.CCP(href='#') &copy; 2021:Nebula-Tech
+        a.CCP(href='#') www.Nebula_Tech.com 
+        p#Footers &nbsp;&nbsp; | &nbsp;&nbsp;ALL RIGHTS RESERVED
+
+    script(src='https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js') 
+
+    script
+      include ../static/index.js

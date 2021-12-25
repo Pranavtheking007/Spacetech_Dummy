@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans+Condensed:ital,wght@1,300&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans+Condensed:ital,wght@1,300&family=PT+Sans+Narrow&family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans+Condensed:ital,wght@1,300&family=PT+Sans+Narrow&family=PT+Serif&family=Road+Rage&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.tech{
+    height: 56px;
+    background: center  no-repeat url("/static/bg.jpg");
+    color: blanchedalmond;
+    font-family: 'Road Rage', cursive;
+}
+#navbar h3{
+    color: greenyellow;
+}
+
+#navbar{
+    background-color: black;
+    height: 50px;
+    padding: 13px 4px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar li{
+    list-style: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 9px 11px;
+    color: cornsilk;
+}
+
+#navbar li :hover{
+    background-color: mediumblue;
+    color: mistyrose;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#introSection{
+    height: 300px;
+    background: center / cover no-repeat url("/static/bg1.jpg");
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 27px;
+}
+
+.manchuko{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: 'Road Rage', cursive;
+    font-size: 3rem;
+}
+
+.Tokugawa{
+    background-color: blueviolet;
+    color: blanchedalmond;
+    font-family: 'Road Rage', cursive;
+    font-size: 2rem;
+}
+
+#logo img{
+    display: flex;
+    color: black;
+    align-items: center;
+    margin: 0px 14px;
+    height: 46px;
+}
+
+#OurMoto{
+    height: 300px;
+    background: center / cover no-repeat url("/static/sat.jpg");
+    z-index: -1;
+    opacity: 0.9;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#OurMoto span h2{
+    padding-top: 4px;
+    color: blue;
+    font-family: 'PT Serif', serif;
+}
+
+#Logo{
+    display: flex;
+    margin: 0px 12px;
+    padding-bottom: 0px;
+    align-items: center;
+}
+
+#Logo img{
+    height: 38px;
+}
+
+#bottai{
+    margin: 10px 0px;
+}
+
+.card1{
+    background: center / cover no-repeat url("/static/img/space1.png");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 209px;
+    color: honeydew;
+}
+
+.card2{
+    background: center / cover no-repeat url("/static/img/space2.png");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 209px;
+    color: cornsilk;
+}
+
+.card3{
+    background: center / cover no-repeat url("/static/img/space3.jpg");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 209px;
+}
+
+.card4{
+    background: center / cover no-repeat url("/static/img/tech/Tele_Communication.png");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 60%;
+    margin: 23px 22px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card5{
+    background: center / cover no-repeat url("/static/img/tech/spaceship.jpg");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 60%;
+    margin: 23px 22px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card6{
+    background: center / cover no-repeat url("/static/img/tech/deepspace_communication.jpg");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 60%;
+    margin: 23px 22px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card7{
+    background: center / cover no-repeat url("/static/img/tech/astronomy.jpg");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 60%;
+    margin: 23px 22px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card8{
+    background: center / cover no-repeat url("/static/img/tech/earthsciences.jpg");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 60%;
+    margin: 23px 22px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card9{
+    background: center / cover no-repeat url("/static/img/tech/navigation.jpg");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 60%;
+    margin: 23px 22px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card10{
+    background: center / cover no-repeat url("/static/img/tech/space_station.jpg");
+    z-index: -1;
+    display: inline-block;
+    border: 5px solid violet;
+    border-radius: 10px;
+    width: 60%;
+    margin: 23px 22px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 h3{
+    text-align: center;
+    margin: 12px;
+    
+}
+
+.card2 h3{
+    text-align: center;
+    margin: 12px;
+}
+
+.card3 h3{
+    text-align: center;
+    margin: 12px;
+    color: khaki;
+    background-color: lightcoral;
+}
+
+.card4 h3{ 
+    color: cadetblue;
+    background-color: darkmagenta;
+    margin: 12px 24px;
+}
+
+.card5 h3{ 
+    color: darkslateblue;
+    background-color: whitesmoke;
+    margin: 12px 24px;
+}
+
+.card6 h3{ 
+    color: beige;
+    background-color: violet;
+    margin: 12px 24px;
+}
+
+.card7 h3{ 
+    color: blanchedalmond;
+    background-color: darkorchid;
+    margin: 12px 24px;
+}
+
+.card8 h3{ 
+    color: floralwhite;
+    background-color: mediumorchid;
+    margin: 12px 24px;
+}
+
+.card9 h3{ 
+    color: oldlace;
+    background-color: navy;
+    margin: 12px 24px;
+}
+
+.card10 h3{ 
+    color: cornsilk;
+    background-color: blue;
+    margin: 12px 24px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: cornsilk;
+    background-color: hotpink;
+    margin: 10px;
+}
+
+/* external css: flickity.css */
+
+
+
+.carousel-cell {
+  width: 60%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* cell number */
+
+
+
+#banzaiii{
+    height: 430px;
+    background: center / cover no-repeat url("/static/techbg.png");
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#banzaiii h2{
+    background-color: cornsilk;
+    color: darkblue;
+    margin: 10px 550px;
+}
+
+#social{
+    margin: 10px;
+}
+
+.sm-handle{
+    text-align: center;
+}
+
+.sm-handle{
+    overflow: hidden;
+}
+.sm-handle a{
+    font-size: 1.25em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm-handle a:hover{
+    background-color: darkgray;
+    color: darkblue;
+
+}
+
+/* Style all font awesome icons */
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+}  
+.fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+}  
+.fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+}  
+.fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+}  
+.fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+}  
+.fa-instagram {  
+    background: #C13584;
+    color: white;  
+}  
+.fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+}  
+.fa-google {  
+    background: #dd4b39;  
+    color: white;  
+}  
+.fa-snapchat-ghost {  
+    background: #fffc00;  
+    color: white;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+}  
+.fa-skype {  
+    background: #00aff0;  
+    color: white;  
+  }  
+.fa:hover {  
+      opacity: 0.9;  
+}  
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+}  
+.fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+}  
+.fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+}  
+.fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+}  
+.fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+}  
+.fa-instagram {  
+    background: #125688;  
+    color: white;  
+}  
+.fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+}  
+.fa-google {  
+    background: #dd4b39;  
+    color: white;  
+}  
+.fa-snapchat-ghost {  
+    background: #fffc00;  
+    color: white;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+}  
+.fa-skype {  
+    background: #00aff0;  
+    color: white;  
+}  
+.fa:hover {  
+      opacity: 0.9;  
+} 
+
+#sponsors{
+    margin: 10px 0px;
+    background: center / cover no-repeat url("/static/pbgs.jpg");
+    height: 200px;
+    color: cornsilk;
+    text-align: center;
+}
+
+#partners{
+    height: 160px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spimage{
+    height: 80%;
+    margin: 10px;
+}
+
+footer{
+    background-color: black;
+    overflow: hidden;
+    height: 30px;
+}
+
+footer a{
+    display: flex;
+    color: ghostwhite;
+    padding: 5px 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    float: left;
+}
+
+footer a:hover{
+    background-color: darkgray;
+    color: black;
+}
+
+#moza{
+    margin:10px;
+}
+
+#Footers{
+    display: flex;
+    color: ghostwhite;
+    padding: 5px 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    float: left;
+}
